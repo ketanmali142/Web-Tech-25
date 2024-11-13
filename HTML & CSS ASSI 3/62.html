@@ -1,0 +1,30 @@
+<!-- 62) why  class is required in css ? how to define class in css. show example with advantage of class.
+   a)can we have class name multiple time in a page?
+   b)can we have multiple class in single tag? -->
+
+<!-- if a) & b) is true then please prove it using proper example. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Example</title>
+    <style>
+      .box {
+        background-color: lightblue;
+        padding: 10px;
+      }
+      .highlight {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">This div has the class 'box'</div>
+    <div class="box highlight">
+      This div has both 'box' and 'highlight' classes
+    </div>
+    <div class="box">This is another div with 'box' class</div>
+  </body>
+</html>
